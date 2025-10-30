@@ -1,12 +1,65 @@
-# React + Vite
+# AI-chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple AI chatbot application built using React + Vite.  
+This project serves as a foundation for building interactive chat experiences powered by modern front-end tooling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Interactive chat interface in the browser  
+- Built with fast development workflow (Vite)  
+- React for UI, JavaScript + CSS for logic & styling  
+- Basic linting (ESLint) to enforce code quality  
+- Easily extendable to integrate AI / back-end services  
+
+---
+
+## Tech Stack
+
+- **Frontend**: React  
+- **Build Tool**: Vite  
+- **Linting**: ESLint  
+- **Languages**: JavaScript, HTML, CSS  
+- See the `package.json`, `vite.config.js`, and `eslint.config.js` for full details.
+
+---
+
+## Getting Started
+
+### Prerequisites  
+- Node.js (v14 or newer recommended)  
+- npm or yarn  
+
+### Installation  
+```bash
+git clone https://github.com/ghost6626V2/AI-chatbot.git  
+cd AI-chatbot  
+npm install
+
+
+Project Structure
+AI-chatbot/
+├─ public/
+│  └─ index.html
+├─ src/
+│  ├─ App.jsx
+│  ├─ components/
+│  └─ styles/
+├─ .gitignore
+├─ package.json
+├─ vite.config.js
+└─ eslint.config.js
+
