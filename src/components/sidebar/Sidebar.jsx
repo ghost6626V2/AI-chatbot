@@ -22,7 +22,7 @@ function Sidebar() {
 {extend?<p>New Chat</p>:null}</div>
 {prevPrompt.map((item,index)=>{
 return(
-  <div className="recent" onClick={()=>{loadPrevPrompt(item)}}>
+  <div className="recent" key={index} onClick={()=>{loadPrevPrompt(item)}}>
 <FaRegMessage />
 {extend?<p>{item.slice(0,10)+"..."}</p>:null}
 

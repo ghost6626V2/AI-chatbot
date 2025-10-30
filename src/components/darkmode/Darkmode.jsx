@@ -16,7 +16,7 @@ function Darkmode() {
     },[mode])
   return (
     <div>
-      <button class='darkmodebtn' onClick={()=>{
+      <button className='darkmodebtn' onClick={()=>{
         toggle()
       }}>{mode==="darkmode"?<FiSun />:<IoMoonOutline />}
 </button>
